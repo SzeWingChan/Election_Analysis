@@ -1,7 +1,7 @@
-# Election_Analysis
+# Election Analysis
 
 ## Overview of Election Audit
-Audtion of a recent local congressional election was conducted using the data provided by a Colorado Board of Election employee.  Outcome of the election inlcuding total number of vote cast, vote cast and respective percentage of votes in each county, list of candidates, total number of votes each candidate received, the percentage of votes each candidate won and the winner of the election based on popular vote are presented in the election_results (text) file.
+Audition of a recent local congressional election was conducted using the data provided by a Colorado Board of Election employee.  Outcome of the election inlcuding total number of vote cast, vote cast and respective percentage of votes in each county, list of candidates, total number of votes each candidate received, the percentage of votes each candidate won and the winner of the election based on popular vote are presented in the election_results (text) file.
 
 ## Resources
 - Data Source: election_results.csv
