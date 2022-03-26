@@ -1,32 +1,35 @@
 # Election_Analysis
 
-## Project Overview
-A Colorado Board of Election employee has given you the following tasks to complete the eletion audtion of a recent local congressional election.
-
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+## Overview of Election Audit
+Audtion of a recent local congressional election was conducted using the data provided by a Colorado Board of Election employee.  Outcome of the election inlcuding total number of vote cast, vote cast and respective percentage of votes in each county, list of candidates, total number of votes each candidate received, the percentage of votes each candidate won and winner of the election based on popular vote are presented in the election_results (text) file.
 
 ##Resources
 - Data Source: election_results.csv
 - Software: Python 3.10.2, Visual Studio Code 1.65.2
 
-##Summary
-The analysis of the election show that:
+##Election-Audit Results
 - There were 369,711 votes cast in the election.
-- The candidates were:
-  - Charles Casper Stockham
-  - Diana DeGette
-  - Raymon Anthony Doane
-- The candidate results were:
+  ![Total_votes](https://github.com/SzeWingChan/Election_Analysis/blob/main/Resources/Total_votes.png)
+
+- Breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+  - The number of votes for Jefferson county is 38,855 and it accounts for 10.5% of the total votes.
+  - The number of votes for Denver county is 306,055 and it accounts for 82.8% of the total votes.
+  - The number of votes for Arapahoe county is 24,801 and it accounts for 6.7% of the total votes.
+  - ![https://github.com/SzeWingChan/Election_Analysis/blob/main/Resources/County_votes.png]
+
+- Denver county had the larest number of votes.
+- ![Largest_county_turnout](https://github.com/SzeWingChan/Election_Analysis/blob/main/Resources/Largest_county_turnout.png)
+
+- Breakdown of the number of votes and the percentage of the total votes each candidate received.
   - Charles Casper Stockham received 23.0% of the vote and 85,213 of votes.
   - Diana DeGette received 73.8% of the vote and 272892 of votes.
   - Raymon Anthony Doane received 3.1% of the vote and 11,666 of votes.
-- The winner of the election was:
-  - Diana DeGette, who received 73.8% of the vote and 272892 of votes.
+  - ![Candidates_votecount](https://github.com/SzeWingChan/Election_Analysis/blob/main/Resources/Candidates_votecount.png)
 
-## Challenge Overview
+ -  Diana DeGette, who received 73.8% of the vote and 272892 of votes, won the election.
 
-## Chanllenge Summary
+##Election-Audit Summary
+- The audit script can be resued in other elections, for example federal election, with some level of adaptations or modifications.  
+  - Instead of calcuating the number of votes in each county, it could be changed to calculate the number of votes in each electoral district.  
+  - The number of vote for each candidate won could be modified to calculate the number of vote each party won.
+
