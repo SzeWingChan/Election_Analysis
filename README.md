@@ -16,7 +16,7 @@ An audition of a recent local congressional election was conducted using the dat
   - The number of votes for Jefferson county is 38,855 and it accounts for 10.5% of the total votes.
   - The number of votes for Denver county is 306,055 and it accounts for 82.8% of the total votes.
   - The number of votes for Arapahoe county is 24,801 and it accounts for 6.7% of the total votes.
-  ![https://github.com/SzeWingChan/Election_Analysis/blob/main/Resources/County_votes.png]
+  ![County_votes](https://github.com/SzeWingChan/Election_Analysis/blob/main/Resources/County_votes.png)
 
 - Denver county had the largest number of votes.
   
